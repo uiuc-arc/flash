@@ -86,10 +86,11 @@ The file [`evaluation/newbugs.csv`](evaluation/newbugs.csv) lists all the new bu
 Please cite us if you use our tool:
 
 ```
-@inproceedings{dutta2020flash,
-  title={Detecting Flaky Tests in Probabilistic and Machine Learning Applications},
+@inproceedings{dutta2020detecting,
+  title={Detecting flaky tests in probabilistic and machine learning applications},
   author={Dutta, Saikat and Shi, August and Choudhary, Rutvik and Zhang, Zhekun and Jain, Aryaman and Misailovic, Sasa},
-  booktitle={ISSTA}
+  booktitle={Proceedings of the 29th ACM SIGSOFT International Symposium on Software Testing and Analysis},
+  pages={211--224},
   year={2020}
 }
 ```
