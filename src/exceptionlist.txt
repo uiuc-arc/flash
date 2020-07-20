@@ -1,0 +1,6 @@
+tensor2tensor,tensor2tensor/utils/data_reader_test.py,DataReaderTest,
+tensor2tensor,tensor2tensor/utils/data_reader_test.py,DataReaderTest,
+snorkel,test/slicing/test_convergence.py,SlicingConvergenceTest,
+snorkel,classification/test_classifier_convergence.py,ClassifierConvergenceTest,
+qiskit-aqua,test/aqua/test_qsvm.py,TestQSVM
+qiskit-aqua,test/aqua/test_vqc.py,TestVQC

@@ -1,0 +1,11 @@
+Repository,Issue,Pull Request,#Tests,Status
+allenai/allennlp,https://github.com/allenai/allennlp/issues/3608,https://github.com/allenai/allennlp/pull/3615,1,merged
+allenai/allennlp,https://github.com/allenai/allennlp-reading-comprehension/issues/16,https://github.com/allenai/allennlp-reading-comprehension/pull/17,1,merged
+allenai/allennlp,NA,https://github.com/allenai/allennlp-reading-comprehension/pull/18,2,merged
+OpenMined/PySyft,https://github.com/OpenMined/PySyft/issues/2937,NA,1,closed
+tensorflow/cleverhans,https://github.com/tensorflow/cleverhans/issues/1142,https://github.com/tensorflow/cleverhans/issues/1142,1,open
+tensorflow/cleverhans,https://github.com/tensorflow/cleverhans/issues/1145,NA,1,open
+zfit/zfit,NA,https://github.com/zfit/zfit/pull/190,1,closed
+tensorflow/tensor2tensor,https://github.com/tensorflow/tensor2tensor/issues/1783,NA,1,open
+pytorch/botorch,https://github.com/pytorch/botorch/issues/361,https://github.com/pytorch/botorch/pull/362,1,merged
+deepmind/sonnet,https://github.com/deepmind/sonnet/issues/156,NA,1,open

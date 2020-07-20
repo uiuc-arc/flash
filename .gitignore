@@ -1,0 +1,6 @@
+.idea/
+*.pyc
+__pycache__
+venv
+logs/
+tool/scripts/data
