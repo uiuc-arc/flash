@@ -157,7 +157,7 @@ class MyVisitor(ast.NodeVisitor):
             self._log("Not handled : ", ast.dump(node))
 
 
-class AssertScraper:
+class Scraper:
     def __init__(self, library_dir, libraryname, loglevel=logging.ERROR):
         self.testfiles = glob.glob("{0}/**/*.py".format(library_dir), recursive=True)
         self.assertcount = 0

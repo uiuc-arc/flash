@@ -3,7 +3,7 @@ import argparse
 
 import libraries
 from Logger import Logger
-from assertscraper import AssertScraper
+from scraper import Scraper
 from src.TestDriver import TestDriver
 from src.TestInstrumentor import TestInstrumentor
 
@@ -34,14 +34,14 @@ for library in libs:
         threads = library.threads
         print("Setting threads for {0} at {1}".format(library.name, library.threads))
 
-    # mine assertions
-    assert_scraper = AssertScraper(library.path, library.name)
-    assert_scraper.parse_test_files()
-    assert_scraper.filter_asserts()
+    
+    scraper = Scraper(library.path, library.name)
+    scraper.parse_test_files()
+    scraper.filter_asserts()
 
-    assertion_specs = assert_scraper.asserts
+    aspecs = scraper.asserts
 
-    if len(assertion_specs) == 0:
+    if len(aspecs) == 0:
         print("No assertions found")
         continue
 
@@ -52,7 +52,7 @@ for library in libs:
         rundir = create_new_dir("{0}/logs".format(libraries.PROJECT_DIR), "run_", '_' + library.name)
     logger = Logger(basedir=rundir)
     print("Rundir: %s" % rundir)
-    for i, spec in enumerate(assertion_specs):
+    for i, spec in enumerate(aspecs):
         # instrument the test
         logger.logo("Spec %d " % (i + 1))
         logger.logo(spec.print_spec())
